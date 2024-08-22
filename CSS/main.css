@@ -1,0 +1,203 @@
+/* COLORES
+AMARILLO #FFDE59
+VERDE OSCURO #4F8B28
+VERDE MEDIO #5ABB68
+AZUL #5093CA
+CELESTE CLARO #A4CEF1
+AZUL OSCURO #5184B1
+VERDE CLARO #9ADB51
+NARANJA #E79413
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #4F8B28;
+}
+
+main {
+    background-color: #ffe57d;
+}
+
+.logo-nav {
+    max-width: 3rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-button-close {
+    display: none;
+}
+
+.navOpen {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+}
+
+#navClose {
+    display: none;
+}
+
+#navOpen {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .navOpen {
+        display: block;
+    }
+
+    #navOpen {
+        display: block;
+    }
+
+    .navHide {
+        opacity: 0;
+        visibility: hidden;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #4F8B28;
+        padding: 2rem;
+        bottom: 0;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+
+    }
+
+    .navHide.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-button-close {
+        display: block;
+    }
+
+    #navClose {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .home-text {
+        background-color: #4F8B28;
+        border-radius: 0 0 .5rem .5rem;
+    }
+
+    .home-text-p {
+        display: flex;
+        margin-top: 10px;
+        color: white;
+        font-size: 1.2rem;
+        padding: 30px;
+        text-align: left;
+    }
+
+    .button-1 {
+        background-color: #E79413;
+        border: none;
+        margin-top: 15px;
+        padding: 50px 40px;
+        border-radius: 30rem;
+        color: white;
+    }
+
+    .button-2 {
+        background-color: #5093CA;
+        border: none;
+        margin-top: 15px;
+        padding: 50px 55px;
+        border-radius: 30rem;
+        color: white;
+    }
+
+    .button-3 {
+        background-color: #5ABB68;
+        border: none;
+        margin-top: 15px;
+        padding: 50px 55px;
+        border-radius: 30rem;
+        color: white;
+    }
+
+    .p-button-1 {
+        font-size: 1.5rem;
+    }
+
+    .icon-1 {
+        font-size: 3rem;
+    }
+
+    .instagram-post {
+        margin-top: 15px;
+    }
+
+    footer {
+        background-color: #4F8B28;
+        padding-top: 15px;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-list {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        margin-left: 15px;
+        gap: .5rem;
+    }
+
+    .footer-deco {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .copyright-text {
+        color: white;
+        background-color: #406f21;
+        padding-top: 10px;
+    }
+}
