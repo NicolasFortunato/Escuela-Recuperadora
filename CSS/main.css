@@ -17,6 +17,7 @@ NARANJA #E79413
     font-family: sans-serif;
 }
 
+
 header {
     display: flex;
     align-items: center;
@@ -186,7 +187,6 @@ main {
         display: flex;
         text-align: left;
         flex-direction: column;
-        margin-left: 15px;
         gap: .5rem;
     }
 
