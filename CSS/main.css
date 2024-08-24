@@ -14,7 +14,7 @@ NARANJA #E79413
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Libre Franklin", sans-serif;
 }
 
 
@@ -137,7 +137,7 @@ main {
         background-color: #E79413;
         border: none;
         margin-top: 15px;
-        padding: 50px 40px;
+        padding: 55px 40px;
         border-radius: 30rem;
         color: white;
     }
@@ -146,7 +146,7 @@ main {
         background-color: #5093CA;
         border: none;
         margin-top: 15px;
-        padding: 50px 55px;
+        padding: 55px 55px;
         border-radius: 30rem;
         color: white;
     }
@@ -155,7 +155,7 @@ main {
         background-color: #5ABB68;
         border: none;
         margin-top: 15px;
-        padding: 50px 55px;
+        padding: 55px 55px;
         border-radius: 30rem;
         color: white;
     }
